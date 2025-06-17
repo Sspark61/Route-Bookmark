@@ -2,19 +2,9 @@ body {
   background-color: #f7ecde;
 }
 
-.container {
-  margin-top: 5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 80%;
-}
-
 .container h1 {
   font-family: Pacifico;
   font-size: 50px;
-  position: relative;
 }
 
 .container h1::before {
@@ -34,9 +24,7 @@ body {
 }
 
 .container span {
-  margin-top: 60px;
   border-bottom: 2px dotted black;
-  width: 100%;
 }
 
 .container h3 {
@@ -53,16 +41,6 @@ body {
 
 .input-data {
   font-family: PT Sans Caption;
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  gap: 0.5rem;
-}
-
-.input-data label {
-  font-weight: bold;
-  color: #333;
 }
 
 .input-data button{

@@ -23,16 +23,16 @@
   </head>
 
   <body>
-    <div class="container">
-      <h1>Bookmarker</h1>
-      <span></span>
+    <div class="container d-flex flex-column align-items-center justify-content-center mt-5 w-75">
+      <h1 class="position-relative">Bookmarker</h1>
+      <span class="mt-5 w-100"></span>
       <h3>
-        <i class="fa-solid fa-bookmark"></i>Bookmark your favorite sites<i
+        <i class="fa-solid fa-bookmark"></i> Bookmark your favorite sites <i
           class="fa-solid fa-bookmark"
         ></i>
       </h3>
-      <div class="input-data">
-        <label for="bookmarkNameInput" class="my-2"
+      <div class="input-data mt-1 d-flex flex-column w-100 gap-2">
+        <label for="bookmarkNameInput" class="my-2 fw-bold"
           ><i class="fa-solid fa-book-bookmark"></i> Site Name</label
         >
         <input
@@ -42,7 +42,7 @@
           id="bookmarkNameInput"
           name="bookmarkName"
         />
-        <label for="siteURLInput" class="my-2"
+        <label for="siteURLInput" class="my-2 fw-bold"
           ><i class="fa-solid fa-link"></i> Site URL</label
         >
         <input
@@ -54,7 +54,7 @@
         />
         <button class="btn btn-danger align-self-center" onclick="addsite()">Submit</button>
       </div>
-      <span></span>
+      <span class="mt-5 w-100"></span>
       <table class="table text-white text-center my-5">
         <thead>
           <th>Index</th>
